@@ -16,9 +16,19 @@ $(document).ready(function() {
       // itemsMobile : false
 
   });
+  $(document).ready(function() {
+    $('#fullpage').fullpage({
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['', 'About Me','Personal Expertise and Research', 'My work', 'Contact Me'],
 
-  window.onscroll = function (e) {
-    $('#pure-bg').removeClass();
-  }
+      //scrolling
+      loopBottom: true,
+      loopTop: true,
+      fadingEffect: true,
+      keyboardScrolling: true,
+      dragAndMove: false,
+    });
+  });
 
 });
