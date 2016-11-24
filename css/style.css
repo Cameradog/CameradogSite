@@ -28,6 +28,11 @@ html, body {
   margin-top: -50px;
 }
 
+#profile-image-neriot{
+  width: 40vh;
+  margin-top: 0px;
+}
+
 #profile-name {
   color: rgba(250, 250, 250, 1);
   font-size: 10vh;
